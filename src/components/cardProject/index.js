@@ -1,4 +1,14 @@
+import Aos from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from "react";
+
+
 export default function CardProject(props) {
+
+  useEffect(() => {
+    Aos.init({duration: 500});
+    }, []);
+
   return (
     <a href={props.link}>
       {props.name === "em breve" ? (
