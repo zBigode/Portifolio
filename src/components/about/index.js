@@ -12,7 +12,7 @@ export default function About() {
     <div
    
     >
-      <div className=" pt-20 flex min-w-[80%] w-[90%] min-h-[90vh]">
+      <div className=" pt-[160px] flex min-w-[80%] w-[90%] min-h-[90vh]">
         <div className="pl-4 font-light text-[15px] text-gray-400 ">
           <h1 className=" text-center text-[50px] font-bold text-teal-500">Hi! Im Marcos Gabriel.</h1>
        <div className="h-full w-full items-center flex">
