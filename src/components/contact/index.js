@@ -25,7 +25,7 @@ export default function Contact() {
             data-aos-offset="100"
             className=" font-light text-[25px] text-gray-400  "
           >
-            Want to contact me? Sure, just don't send me snail mail. You can
+            Want to contact me? Sure, send me a mail. You can
             find me on these platforms:
           </h2>
         </div>
