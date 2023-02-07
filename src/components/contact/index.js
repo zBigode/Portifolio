@@ -38,25 +38,25 @@ export default function Contact() {
           <div className="flex items-center m-2  text-gray-200">
             <a href="https://github.com/zBigode" >
             <img
-              className="h-[70px] w-[70px] m-2"
+              className="max-h-[50px] max-w-[50px] m-2"
               src={github}
               alt="logo github"
             />
             </a>
             <a href="https://github.com/zBigode" >
-            <p className="text-2xl text-[25px]">GitHub</p>
+            <p className="text-2xl text-[25px] pl-4">GitHub</p>
             </a>
           </div>
           <div className="flex items-center m-2  text-gray-200">
           <a href="https://www.linkedin.com/in/marcos-gabriel-246b01207/" >
             <img
-              className="h-[70px] w-[70px] m-2"
+              className="max-h-[50px] max-w-[50px] m-2"
               src={lkd}
               alt="logo linkedin"
             />
             </a>
             <a href="https://www.linkedin.com/in/marcos-gabriel-246b01207/" >
-            <p className="text-2xl text-[25px]">Linkedin</p>
+            <p className="text-2xl text-[25px] pl-4">Linkedin</p>
             </a>
           </div>
         </div>
