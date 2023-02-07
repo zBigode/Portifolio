@@ -1,7 +1,8 @@
 
 
 export const data = [
-    { id: 1, text: 'about', url: '#about'},
-    { id: 2, text: 'skills', url: '#skills'},
-    { id: 3, text: 'projects', url: '#projects'}
+    { id: 1, text: 'About', url: '#about'},
+    { id: 2, text: 'Skills', url: '#skills'},
+    { id: 3, text: 'Projects', url: '#projects'},
+    { id: 4, text: 'Contact', url: '#contact'}
 ]

@@ -16,7 +16,7 @@ export default function CardProject(props) {
        data-aos="fade-up"
        data-aos-duration="500"
        data-aos-offset="100"
-       className="hover:bg-gray-500 w-full h-full bg-gray-400 rounded-md py-4 px-4 flex items-center justify-center"
+       className="hover:bg-zinc-600 w-full h-full bg-zinc-500 rounded-md py-4 px-4 flex items-center justify-center"
            >
             <h1 className="text-black">Em breve</h1>
        <div className="mt-2">
@@ -28,7 +28,7 @@ export default function CardProject(props) {
           data-aos="fade-up"
           data-aos-duration="500"
           data-aos-offset="100"
-          className="hover:bg-gray-500  w-full h-full bg-gray-400 rounded-md py-4 px-4"
+          className="hover:bg-zinc-600 w-full h-full bg-zinc-500 rounded-md py-4 px-4"
         >
           <img
             src={props.img}

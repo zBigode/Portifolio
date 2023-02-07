@@ -1,6 +1,6 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import Aos from "aos";
-import "aos/dist/aos.css"
+import "aos/dist/aos.css";
 import css from "../../assets/css.svg";
 import javascript from "../../assets/javascript.svg";
 import Git from "../../assets/Git.svg";
@@ -8,7 +8,6 @@ import html from "../../assets/html.svg";
 import nodejs from "../../assets/nodejs.svg";
 import reactjs from "../../assets/reactjs.svg";
 import tailwindcss from "../../assets/tailwindcss.svg";
-
 
 const items = [
   {
@@ -48,32 +47,42 @@ const items = [
   },
 ];
 
-
-
 export default function Skills() {
-
   useEffect(() => {
-    Aos.init({duration: 500});
-    }, []);
+    Aos.init({ duration: 500 });
+  }, []);
 
   return (
-    <div className="mt-4 text-white  h-[90vh] grid pt-20">
-      <h1 className="text-2xl font-bold pl-[100px]">Skills</h1>
+    <div
+      data-aos="fade-up"
+      data-aos-duration="500"
+      data-aos-offset="100"
+      className="mt-4 text-white  h-[90vh] grid pt-20"
+    >
+      <h1 className="text-[40px] font-bold pl-[100px] ">Skills</h1>
+      <h2 className="font-light text-[25px] pl-[100px] ">Some of my skills:</h2>
       <div className="  flex-wrap flex justify-center">
         {items.map((item) => {
           return (
-            <button key={item.name} className=" flex justify-center w-[25%] items-center hover:bg-gray-600 rounded-3xl ">
-              <a href={item.link}>
+            <a
+              href={item.link}
+              key={item.name}
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-offset="100"
+              className=" flex justify-center w-[25%] items-center hover:bg-zinc-600  bg-zinc-500 rounded-3xl m-4 p-4 "
+            >
+              <button>
                 <img
-                   data-aos="fade-up"
-                   data-aos-duration="500"
-                   data-aos-offset="100"
+                  data-aos="fade-up"
+                  data-aos-duration="500"
+                  data-aos-offset="100"
                   className="h-[100px]"
                   src={item.name}
                   alt={`${item.description} ${item.name}`}
                 />
-              </a>
-            </button>
+              </button>
+            </a>
           );
         })}
       </div>
