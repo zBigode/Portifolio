@@ -1,5 +1,6 @@
 import pokedex from "../../assets/pokedex.png";
 import netflix from "../../assets/netflix.png";
+import NLW from "../../assets/NLW.png";
 import CardProject from "../cardProject";
 import React, { useEffect } from "react";
 import Aos from "aos";
@@ -23,6 +24,11 @@ export default function Projects(props) {
           name="A project based in netflix to train react Rooks"
           img={netflix}
           link={"https://estudo-net-flix.vercel.app/"}
+        />
+        <CardProject
+          name="Project developed for housing management"
+          img={NLW}
+          link={"https://habits-web-ten.vercel.app/"}
         />
         <CardProject
           name="A pokédex created with Reactjs to practice"
