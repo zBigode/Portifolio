@@ -16,7 +16,7 @@ export default function CardProject(props) {
        data-aos="fade-up"
        data-aos-duration="500"
        data-aos-offset="100"
-       className="hover:bg-zinc-600 w-full h-full bg-zinc-500 rounded-md py-4 px-4 flex items-center justify-center"
+       className="hover:bg-zinc-600  h-full bg-zinc-500 rounded-md py-4 px-4 flex items-center justify-center w-full min-h-[348px]"
            >
             <h1 className="text-black">Em breve</h1>
        <div className="mt-2">
@@ -28,7 +28,7 @@ export default function CardProject(props) {
           data-aos="fade-up"
           data-aos-duration="500"
           data-aos-offset="100"
-          className="hover:bg-zinc-600 w-full h-full bg-zinc-500 rounded-md py-4 px-4"
+          className="hover:bg-zinc-600 w-full h-full bg-zinc-500 rounded-md py-4 px-4   min-h-[348px]"
         >
           <img
             src={props.img}
@@ -37,9 +37,7 @@ export default function CardProject(props) {
           ></img>
           <div className="mt-2">
             <h1 className="font-bold md:text-xl">{props.name}</h1>
-            <p className="font-light md:text-lg">Issued by {props.issued}</p>
             <p className="font-light text-gray-400">{props.desc}</p>
-
             <p className="font-light text-gray-400">{props.date}</p>
           </div>
         </div>
