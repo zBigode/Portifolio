@@ -11,14 +11,14 @@ export default function CardProject(props) {
 
   return (
     <a href={props.link}>
-      {props.name === "em breve" ? (
+      {props.name === "shortly" ? (
        <div
        data-aos="fade-up"
        data-aos-duration="500"
        data-aos-offset="100"
        className="hover:bg-zinc-600  h-full bg-zinc-500 rounded-md py-4 px-4 flex items-center justify-center w-full min-h-[348px]"
            >
-            <h1 className="text-black">Em breve</h1>
+            <h1 className="text-black">Shortly</h1>
        <div className="mt-2">
       
        </div>

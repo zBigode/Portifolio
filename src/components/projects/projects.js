@@ -35,7 +35,7 @@ export default function Projects(props) {
           img={pokedex}
           link={"https://pokedex-pokeapi-two.vercel.app/"}
         />
-        <CardProject name="em breve" />
+        <CardProject name="shortly" />
       </div>
     </div>
   );
