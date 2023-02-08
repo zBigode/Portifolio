@@ -57,7 +57,7 @@ export default function Skills() {
       data-aos="fade-up"
       data-aos-duration="500"
       data-aos-offset="100"
-      className="mt-4 text-white  min-h-[90vh] grid pt-20"
+      className=" text-white  min-h-[90vh] grid mt-20"
     >
       <h1 className="text-[40px] font-bold pl-[100px] ">Skills</h1>
       <h2 className="font-light text-[25px] pl-[100px] ">Some of my skills:</h2>
