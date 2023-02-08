@@ -61,7 +61,7 @@ export default function Skills() {
     >
      
    
-    <h1 className="text-[40px] font-bold pl-[100px] pt-20">Skills</h1>
+    <h1 className="text-[40px] font-bold pl-[100px] mt-40">Skills</h1>
 
       <h2 className="font-light text-[25px] pl-[100px] ">Some of my skills:</h2>
       <div className="  flex-wrap flex justify-center">
